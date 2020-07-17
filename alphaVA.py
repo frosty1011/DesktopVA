@@ -44,8 +44,10 @@ def takeCommand():
         print("say that again ...")
         return "None"
     return query
+
 if __name__ == "__main__":
-    if 1:
+    while 1:
+        wishME()
         speak("I am Alpha . How may I help you")
         query=takeCommand().lower() #So that we dont get in any case confusion i.e. google or Google
         #Logic for executing tasks based on query
