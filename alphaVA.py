@@ -59,8 +59,8 @@ if __name__ == "__main__":
             speak(results)
             print(results)
 
-        #elif 'exit' in query:
-            #dsss
+        elif 'exit' in query:
+            break
         
         elif "open youtube" in query:
             webbrowser.open("youtube.com")
